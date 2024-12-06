@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%; /* Ensure the body takes up the full viewport height */
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.main-container {
+
+    width: 1000px;
+    height: 825px;
+    border-radius: 20px;
+    background-image: url('bak.jpg');
+    background-size: 108% 124%;
+    background-position: 50% 50%; 
+    background-repeat: no-repeat;
+    background-color: rgb(21, 34, 209);
+    position: relative;
+}
+ .titel-content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 79px;
+    margin-left: 356px;
+    justify-content: center;
+    background: linear-gradient(to bottom, #e91e63 -3%, #5623D8 41%);
+    border-radius: 10px;
+    width: 280px; 
+    height: 54px;
+    color: aliceblue;
+    font-size: 30px;
+    box-shadow: 0px 8px 16px #0671FB;
+   
+}
+
+.left-one {
+    display: flex;
+    flex: 0 0 33.33%;
+    position: relative;
+    border: 1px solid #fff;
+    z-index: 3000;
+}
+
+.winre-content {
+    display: flex;
+   position: absolute;
+
+}
+
+.main-container .img-winer{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin-top: 68px;
+    margin-left: 255px;
+    z-index: 1000;
+
+}
+
+.main-container .titel-winer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 433px;
+    margin-left: 368px;
+    background: linear-gradient(to bottom, #e91e63 -3%, #5623D8 41%);
+    border-radius: 10px;
+    width: 280px; 
+    height: 54px;
+    color: aliceblue;
+    font-size: 30px;
+    box-shadow: 0px 8px 16px #0671FB;
+}
+
+.itoils {
+    display: flex;
+    /* position: relative;  */
+}
+
+/* No need to change child element styles */
+.itoil-1 {   
+    position: absolute;
+    top: 504px;
+    left: -9px;
+    z-index: 1000;
+}
+
+.itoil-2 {
+    position: absolute;
+    top: 463px;
+    left: 17px;
+    z-index: 1000;
+}
+
+.itoil-3 {
+    position: absolute;
+    top: 391px;
+    left: 41px;
+    z-index: 1000;
+}
+
+.itoil-4 {
+    position: absolute;
+    top: 343px;
+    left: 17px;
+    z-index: 1000;
+}
+
+.itoil-5 {
+    position: absolute;
+    top: 316px;
+    left: -9px;
+    z-index: 1000;
+}
+
+.itoil-11 {   
+    position: absolute;
+    top: 503px;
+    left: 978px;
+    z-index: 1000;
+}
+
+.itoil-21 {
+    position: absolute;
+    top: 463px;
+    left: 941px;
+    z-index: 1000;
+}
+
+.itoil-31 {
+    position: absolute;
+    top: 391px;
+    left: 900px;
+    z-index: 1000;
+}
+
+.itoil-41 {
+    position: absolute;
+    top: 343px;
+    left: 941px;
+    z-index: 1000;
+}
+
+.itoil-51 {
+    position: absolute; /* Corrected from relative */
+    top: 316px;
+    left: 978px;
+    z-index: 1000;
+}
+
+
+.schema {
+    display: flex;
+    position: relative;
+    
+    /* align-items: center; */
+    
+}
+
+.schema-list-left {
+    position: absolute;
+    list-style-type: none;
+    /* margin-left: 154px;
+    margin-top: 343px; */
+}
+
+.schema-item-left {
+    margin: 132px 0;
+    background: linear-gradient(to bottom, #e91e63 -3%, #5623D8 41%);
+    color: white;
+    border-radius: 8px;
+    padding: 0; /* Remove extra padding for perfect centering */
+    text-align: center; /* Center text horizontally */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    width: 87px;
+    height: 70px;
+
+    /* Flexbox for vertical centering */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0px 8px 16px #0671FB;
+}
+
+.schema-list-final {
+    list-style-type: none;
+    /* margin-left: 209px;
+    margin-top: 559px; */
+
+    display: flex; /* Use flexbox */
+    flex-direction: row; /* Align items horizontally */
+}
+
+.schema-item-final {
+    margin: 0 20px; /* Adjust space between items horizontally */
+    background: linear-gradient(to bottom, #e91e63 -3%, #5623D8 41%);
+    color: white;
+    border-radius: 8px;
+    padding: 0; /* Remove extra padding for perfect centering */
+    text-align: center; /* Center text horizontally */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    width: 87px;
+    height: 70px;
+
+    /* Flexbox for vertical centering */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0px 8px 16px #0671FB;
+}
+
+
+
+.schema-list-right {
+    list-style-type: none;
+    /* margin-left: 228px;
+    margin-top: 343px; */
+}
+
+.schema-item-right {
+    margin: 132px 0;
+    background: linear-gradient(to bottom, #e91e63 -3%, #5623D8 41%);
+    color: white;
+    border-radius: 8px;
+    padding: 0; /* Remove extra padding for perfect centering */
+    text-align: center; /* Center text horizontally */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    width: 87px;
+    height: 70px;
+
+    /* Flexbox for vertical centering */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0px 8px 16px #0671FB;
+}
+
+.text {
+    display: inline-block;
+}
+
+
+.schema {
+    position: relative; /* Make the container a reference point for absolute positioning */
+}
+
+.schema-list-left,
+.schema-list-final,
+.schema-list-right {
+    list-style-type: none;
+    position: absolute; /* Allow precise positioning */
+}
+
+.schema-list-left {
+    top: 381px;
+    left: 170px;
+}
+
+.schema-list-final {
+    top: 611px;
+    left: 364px;
+}
+
+.schema-list-right {
+    top: 381px;
+    left: 722px;
+}
+
+
